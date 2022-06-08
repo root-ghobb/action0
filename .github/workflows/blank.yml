@@ -33,4 +33,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           curl --request POST \
-          --url https://api.github.com/repos/=${GITHUB_REPOSITORY}/contents/POC
+          --url https://api.github.com/repos\/${GITHUB_REPOSITORY}\/contents/POC
